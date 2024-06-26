@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Battlefield</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Brain Battlefield</h1>
+                    <div class="quiz-header">
+                        <span>Your score</span>
+                        <span class="header-score">Score: 0 / 5</span>
+                    </div>
+
+                    <h2 class="question-text">What is my name</h2>
+
+                    <div class="option-list">
+                        <!-- <div class="option">
+                            <span>Saadi</span>
+                        </div>
+                        <div class="option">
+                            <span>Saweri</span>
+                        </div>
+                        <div class="option">
+                            <span>Asawer Javed</span>
+                        </div>
+                        <div class="option">
+                            <span>Muraadi</span>
+                        </div> -->
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total">1 of 5 Questions</span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Result</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+
+                        <span class="score-text">Your Score 0 out of 5</span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Try Again</button>
+                        <button class="goHome-btn">Go To Home</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="home">
+                <div class="home-content">
+                    <h1>Brain Battlefield</h1>
+                    <p>Welcome to Brain Battlefield! Are you ready to embark on an exciting journey of knowledge and discovery? Get ready to challenge yourself and put your intellect to the test. Whether you're a trivia enthusiast, a history buff, a pop culture connoisseur, you've come to the right place. Are you up for the challenge? Let's find out!</p>
+                    <button class="start-btn" type="submit">Start Quiz</button>
+                </div>
+            </section>
+        </div>
+    </div>
+    </div>
+
+    <div class="popup-info">
+        <h2>Guide</h2>
+        <ul type="circle">
+            <li>Start with your 100% focus.</li>
+            <li>You can click on any answer just once.</li>
+            <li>After click, green color will present write answer of that question.</li>
+            <li>After click, red color will present wrong answer of that question.</li>
+        </ul>
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Exit Quiz</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="questions.js"></script>
+</body>
+</html>
